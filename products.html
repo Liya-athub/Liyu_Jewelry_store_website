@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection - Liyu Jewelry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>Liyu Jewelry</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Collections</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>Cart: <span id="cart-count">0</span></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="products-section">
+    <h2>Our Collection</h2>
+
+    <button onclick="filterProducts('all')">All</button>
+    <button onclick="filterProducts('rings')">Rings</button>
+    <button onclick="filterProducts('Earings')">Earings</button>
+
+    <div class="products-container">
+        <div class="product Necklace">
+            <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d" alt="Necklace">
+            <h3>Diamond Necklace</h3>
+            <p>$1,200</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product Earings">
+            <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638" alt="Earings">
+            <h3>Gold Earings</h3>
+            <p>$950</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product rings">
+            <img src="RubyRing.jpeg" alt="Ring">
+            <h3>Ruby Ring</h3>
+            <p>$1,500</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

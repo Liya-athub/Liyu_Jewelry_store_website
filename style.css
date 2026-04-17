@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fffaf7;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #f8e7d2, #fff);
+	a { font-size: 25px;
+		opacity: 85%;
+
+	
+	}
+	p{font-family:calibri;
+	   font-size: 15px;
+	   font-style:italic;
+	   }
+}
+
+.btn {
+    padding: 12px 24px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+}
+
+.products-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 250px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    transition: transform 0.3s;
+    background: white;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.contact-section {
+    padding: 50px;
+    text-align: center;
+}
+
+input, textarea {
+    display: block;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
