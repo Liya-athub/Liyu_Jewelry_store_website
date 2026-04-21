@@ -10,8 +10,8 @@ A responsive multi page front end website for a jewelry store
 - CSS
 - Javascript
 ## Screenshots
-![home](screenshots/home.png)
-![Poduct Collection](screenshots/ProductCollection.png)
+![home](screenshots/Home.png)
+![Poduct Collection](screenshots/Productcollection.png)
 ## Purpose
 This project was built to demonstrate front-end web development skills such as responsive design and UI interaction
 ## Future Improvements
